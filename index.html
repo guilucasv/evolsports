@@ -1,0 +1,61 @@
+<head>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="container right-panel-active">
+		<!-- Sign Up -->
+		<div class="container__form container--signup">
+			<form action="#" class="form" id="form1">
+				<h2 class="form__title">Preencha o formulário para ter acesso ao seu kit Evolv</h2>
+				<input type="text" placeholder="Nome Completo" class="input" />
+				<input type="email" placeholder="Email" class="input" />
+				<input type="tel" placeholder="Telefone" class="input" />
+				<select name="esportes" class="input">
+					<option value="select">Selecione um esporte</option>
+					<option value="futebol">Futebol</option>
+					<option value="futsal">Futsal</option>
+					<option value="volei">Vôlei</option>
+					<option value="criquete">Criquete</option>
+					<option value="basquete">Basquete</option>
+					<option value="rugby">Rugby</option>
+					<option value="beisebol">Beisebol</option>
+					<option value="atletismo">Atletismo</option>
+					<option value="mma">MMA</option>
+					<option value="pingpong">Tênis de Mesa</option>
+				</select>
+				<select name="Tamanho da Blusa" class="input">
+					<option value="select">Selecione o Tamanho de Camisa</option>
+					<option value="P">P</option>
+					<option value="M">M</option>
+					<option value="G">G</option>
+				</select>
+				<button class="btn"><a target="_blank" href="checkin.html">Ganhar Kit Evolv</a></button>
+			</form>
+		</div>
+	
+		<!-- Sign In -->
+		<div class="container__form container--signin">
+			<form action="#" class="form" id="form2">
+				<h2 class="form__title">EvolvSports</h2>
+				<input type="email" placeholder="Email" class="input" />
+				<input type="password" placeholder="Password" class="input" />
+				<a href="#" class="link">Esqueceu sua senha ?</a>
+				<button class="btn">Login</button>
+			</form>
+		</div>
+	
+		<!-- Overlay -->
+		<div class="container__overlay">
+			<div class="overlay">
+				<div class="overlay__panel overlay--left">
+					<button class="btn" id="signIn">Sign In</button>
+				</div>
+				<div class="overlay__panel overlay--right">
+					<button class="btn" id="signUp">Ganhar meu Kit EvolvSports</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script src="js.js"></script>
